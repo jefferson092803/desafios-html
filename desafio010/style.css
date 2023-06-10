@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:#EBE5C5 ;
+    color: white;
+}
+header > h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#cabeçalho{
+    background-image: linear-gradient(to bottom,#2CA061,#063A1C);
+    color: white;
+    text-align: center;
+    min-height: 150px;
+    
+    padding-top: 40px;
+}
+.ancora{
+    text-decoration: none;
+    color: white;
+}
+.ancora:hover{
+    background-color: #06610144;
+}
+
+
+main{
+    margin-top: 50px;
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 56px;
+}
+
+img{
+    width: 100%;
+    max-width: 800px;
+    min-width: 320px;
+}
+article > h1{
+    font-size: 2em;
+    font-family: "IDroid";
+    color: #066101;
+}
+@font-face {
+    font-family:"IDroid" ;
+    src: url('idroid.otf') format(OpenType);
+}
+a{
+    text-decoration: none;
+    color: #0FB800;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.topico1 > h1{
+    border:5px solid green ;
+}
+.topico1 > img{
+   text-align: center;
+}
+.topico2 > h1{
+    border: 5px dashed green;  
+}
+.topico2 > img{
+    text-align: center;
+}
+
+.extra > aside > h2{
+    color: white;
+    background-color: #1ceb56;
+    font-size: 1em;
+    border-radius: 20px
+}
+aside{
+    background-color: #0eb63e5e;
+    border-radius: 0px 0px 20px 20px;
+}
+aside > ol{
+    display: inline-block;
+    
+}
+aside > .segunda{
+    margin-left: 200px;
+}
+p{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rodape{
+    background-color: #066101;
+    margin: -7px;
+    padding:10px;
+    height: auto;
+    width: auto;
+}
+footer > p > a{
+    color: white;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+    color:#063D1E ;
+}
